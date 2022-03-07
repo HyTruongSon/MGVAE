@@ -1,0 +1,435 @@
+mkdir: cannot create directory ‘./train_mgvae_zinc/’: File exists
+cpu
+Done reading smiles
+Done reading indices: 10000
+Done reading targets
+Done extracting split
+Maximum number of atoms: 38
+Done reading smiles
+Done reading indices: 1000
+Done reading targets
+Done extracting split
+Maximum number of atoms: 38
+torch.Size([20, 1])
+torch.Size([20, 38, 38])
+torch.Size([20, 38, 38])
+torch.Size([20, 38, 9])
+torch.Size([20, 38, 38, 3])
+torch.Size([20, 1])
+Number of input vertex features: 9
+Number of input edge features: 3
+--------------------------------------
+Epoch 0
+Batch 0 / 500 : Loss = 2.0201735496520996
+Batch 100 / 500 : Loss = 0.9250303506851196
+Batch 200 / 500 : Loss = 1.2901768684387207
+Batch 300 / 500 : Loss = 1.1575927734375
+Batch 400 / 500 : Loss = 1.0723016262054443
+Train average loss: 1.1743934897184372
+Train time = 18.31017
+Test MAE: 1.0713593940734862
+Test time = 1.26657
+Current best MAE updated: 1.0713593940734862
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 1
+Batch 0 / 500 : Loss = 1.100265383720398
+Batch 100 / 500 : Loss = 0.8644630312919617
+Batch 200 / 500 : Loss = 0.5822911858558655
+Batch 300 / 500 : Loss = 0.8103572726249695
+Batch 400 / 500 : Loss = 0.7243539690971375
+Train average loss: 0.9725019384622574
+Train time = 18.17191
+Test MAE: 0.9582450618743896
+Test time = 1.26431
+Current best MAE updated: 0.9582450618743896
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 2
+Batch 0 / 500 : Loss = 1.125422477722168
+Batch 100 / 500 : Loss = 0.802855372428894
+Batch 200 / 500 : Loss = 0.9441244006156921
+Batch 300 / 500 : Loss = 0.719833493232727
+Batch 400 / 500 : Loss = 1.2786056995391846
+Train average loss: 0.9286678302288055
+Train time = 18.15575
+Test MAE: 0.95988978099823
+Test time = 1.26691
+--------------------------------------
+Epoch 3
+Batch 0 / 500 : Loss = 1.107604742050171
+Batch 100 / 500 : Loss = 0.9618598818778992
+Batch 200 / 500 : Loss = 0.7458333373069763
+Batch 300 / 500 : Loss = 1.175946593284607
+Batch 400 / 500 : Loss = 1.0766301155090332
+Train average loss: 0.9244648334383965
+Train time = 18.17551
+Test MAE: 0.9392145490646362
+Test time = 1.26737
+Current best MAE updated: 0.9392145490646362
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 4
+Batch 0 / 500 : Loss = 1.03180992603302
+Batch 100 / 500 : Loss = 0.9273802638053894
+Batch 200 / 500 : Loss = 0.995875358581543
+Batch 300 / 500 : Loss = 0.9109395742416382
+Batch 400 / 500 : Loss = 1.0713655948638916
+Train average loss: 0.9211307266950607
+Train time = 18.14869
+Test MAE: 0.9369997644424438
+Test time = 1.26534
+Current best MAE updated: 0.9369997644424438
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 5
+Batch 0 / 500 : Loss = 0.6987123489379883
+Batch 100 / 500 : Loss = 0.866724967956543
+Batch 200 / 500 : Loss = 0.834502100944519
+Batch 300 / 500 : Loss = 0.8995105624198914
+Batch 400 / 500 : Loss = 0.967906653881073
+Train average loss: 0.9161288278102875
+Train time = 18.14963
+Test MAE: 0.9351710424423217
+Test time = 1.26535
+Current best MAE updated: 0.9351710424423217
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 6
+Batch 0 / 500 : Loss = 0.8970097303390503
+Batch 100 / 500 : Loss = 0.9423800706863403
+Batch 200 / 500 : Loss = 0.9594358205795288
+Batch 300 / 500 : Loss = 1.07003653049469
+Batch 400 / 500 : Loss = 0.7174732089042664
+Train average loss: 0.9097513751983642
+Train time = 18.15452
+Test MAE: 0.930633282661438
+Test time = 1.26200
+Current best MAE updated: 0.930633282661438
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 7
+Batch 0 / 500 : Loss = 1.0451271533966064
+Batch 100 / 500 : Loss = 0.9551056623458862
+Batch 200 / 500 : Loss = 0.701298713684082
+Batch 300 / 500 : Loss = 0.9396921396255493
+Batch 400 / 500 : Loss = 0.8151704668998718
+Train average loss: 0.903468169093132
+Train time = 18.14592
+Test MAE: 0.9096974143981934
+Test time = 1.26288
+Current best MAE updated: 0.9096974143981934
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 8
+Batch 0 / 500 : Loss = 0.594074547290802
+Batch 100 / 500 : Loss = 0.8274641036987305
+Batch 200 / 500 : Loss = 0.9476938247680664
+Batch 300 / 500 : Loss = 0.9992080926895142
+Batch 400 / 500 : Loss = 1.3670814037322998
+Train average loss: 0.891027983546257
+Train time = 18.15500
+Test MAE: 0.879601079940796
+Test time = 1.26661
+Current best MAE updated: 0.879601079940796
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 9
+Batch 0 / 500 : Loss = 0.7919764518737793
+Batch 100 / 500 : Loss = 0.6563175916671753
+Batch 200 / 500 : Loss = 1.1212334632873535
+Batch 300 / 500 : Loss = 1.047615885734558
+Batch 400 / 500 : Loss = 0.7920643091201782
+Train average loss: 0.8644256576895714
+Train time = 18.14646
+Test MAE: 0.8464044151306153
+Test time = 1.26527
+Current best MAE updated: 0.8464044151306153
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 10
+Batch 0 / 500 : Loss = 0.8049899339675903
+Batch 100 / 500 : Loss = 0.9328914880752563
+Batch 200 / 500 : Loss = 0.7047494649887085
+Batch 300 / 500 : Loss = 0.7642442584037781
+Batch 400 / 500 : Loss = 1.3137856721878052
+Train average loss: 0.838709866464138
+Train time = 18.13978
+Test MAE: 0.825485011100769
+Test time = 1.26342
+Current best MAE updated: 0.825485011100769
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 11
+Batch 0 / 500 : Loss = 0.9428962469100952
+Batch 100 / 500 : Loss = 0.6224239468574524
+Batch 200 / 500 : Loss = 0.87663334608078
+Batch 300 / 500 : Loss = 0.8607403635978699
+Batch 400 / 500 : Loss = 0.7139325737953186
+Train average loss: 0.8087932572960853
+Train time = 18.05574
+Test MAE: 0.7941118316650391
+Test time = 1.24949
+Current best MAE updated: 0.7941118316650391
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 12
+Batch 0 / 500 : Loss = 0.7415550947189331
+Batch 100 / 500 : Loss = 0.9062223434448242
+Batch 200 / 500 : Loss = 0.5884320735931396
+Batch 300 / 500 : Loss = 0.9347243309020996
+Batch 400 / 500 : Loss = 0.6284999847412109
+Train average loss: 0.7711052371263504
+Train time = 17.97632
+Test MAE: 0.7445012083053589
+Test time = 1.24880
+Current best MAE updated: 0.7445012083053589
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 13
+Batch 0 / 500 : Loss = 0.6849609613418579
+Batch 100 / 500 : Loss = 0.6897980570793152
+Batch 200 / 500 : Loss = 0.5886220335960388
+Batch 300 / 500 : Loss = 0.7861217260360718
+Batch 400 / 500 : Loss = 0.6114997863769531
+Train average loss: 0.723544968008995
+Train time = 17.95376
+Test MAE: 0.8064376306533814
+Test time = 1.24950
+--------------------------------------
+Epoch 14
+Batch 0 / 500 : Loss = 0.8664427995681763
+Batch 100 / 500 : Loss = 0.7099357843399048
+Batch 200 / 500 : Loss = 0.6550152897834778
+Batch 300 / 500 : Loss = 0.9435138702392578
+Batch 400 / 500 : Loss = 0.8291077613830566
+Train average loss: 0.6852403234243393
+Train time = 17.94322
+Test MAE: 0.6422055592536926
+Test time = 1.25445
+Current best MAE updated: 0.6422055592536926
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 15
+Batch 0 / 500 : Loss = 0.8937761187553406
+Batch 100 / 500 : Loss = 0.6016243696212769
+Batch 200 / 500 : Loss = 0.8884803652763367
+Batch 300 / 500 : Loss = 0.5533360242843628
+Batch 400 / 500 : Loss = 0.5563763380050659
+Train average loss: 0.6274687501192093
+Train time = 17.93543
+Test MAE: 0.5671080160140991
+Test time = 1.24771
+Current best MAE updated: 0.5671080160140991
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 16
+Batch 0 / 500 : Loss = 0.5242748856544495
+Batch 100 / 500 : Loss = 0.5213370323181152
+Batch 200 / 500 : Loss = 0.4876860976219177
+Batch 300 / 500 : Loss = 0.6297338008880615
+Batch 400 / 500 : Loss = 0.41036996245384216
+Train average loss: 0.5681216177344323
+Train time = 17.94408
+Test MAE: 0.5446771740913391
+Test time = 1.24963
+Current best MAE updated: 0.5446771740913391
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 17
+Batch 0 / 500 : Loss = 0.3879632353782654
+Batch 100 / 500 : Loss = 0.45667752623558044
+Batch 200 / 500 : Loss = 0.3619524836540222
+Batch 300 / 500 : Loss = 0.46019572019577026
+Batch 400 / 500 : Loss = 0.6820667386054993
+Train average loss: 0.5268701547384262
+Train time = 17.94519
+Test MAE: 0.48100709867477415
+Test time = 1.24854
+Current best MAE updated: 0.48100709867477415
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 18
+Batch 0 / 500 : Loss = 0.3831389844417572
+Batch 100 / 500 : Loss = 0.3929319381713867
+Batch 200 / 500 : Loss = 0.46131664514541626
+Batch 300 / 500 : Loss = 0.396775484085083
+Batch 400 / 500 : Loss = 0.4706004559993744
+Train average loss: 0.4941800719201565
+Train time = 17.96667
+Test MAE: 0.5252718029022216
+Test time = 1.24821
+--------------------------------------
+Epoch 19
+Batch 0 / 500 : Loss = 0.4896501898765564
+Batch 100 / 500 : Loss = 0.24238371849060059
+Batch 200 / 500 : Loss = 0.3546050488948822
+Batch 300 / 500 : Loss = 0.982464611530304
+Batch 400 / 500 : Loss = 0.4596492648124695
+Train average loss: 0.46836453092098235
+Train time = 17.92138
+Test MAE: 0.41890624046325686
+Test time = 1.25332
+Current best MAE updated: 0.41890624046325686
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 20
+Batch 0 / 500 : Loss = 0.375897079706192
+Batch 100 / 500 : Loss = 0.2990768551826477
+Batch 200 / 500 : Loss = 0.3948497176170349
+Batch 300 / 500 : Loss = 0.31925609707832336
+Batch 400 / 500 : Loss = 0.4134584367275238
+Train average loss: 0.4423329150080681
+Train time = 17.91569
+Test MAE: 0.41860071420669553
+Test time = 1.24682
+Current best MAE updated: 0.41860071420669553
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 21
+Batch 0 / 500 : Loss = 0.43533840775489807
+Batch 100 / 500 : Loss = 0.5432502627372742
+Batch 200 / 500 : Loss = 0.580282986164093
+Batch 300 / 500 : Loss = 0.33410215377807617
+Batch 400 / 500 : Loss = 0.3099400997161865
+Train average loss: 0.4196159848868847
+Train time = 17.92569
+Test MAE: 0.38062607049942015
+Test time = 1.24609
+Current best MAE updated: 0.38062607049942015
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 22
+Batch 0 / 500 : Loss = 0.45853978395462036
+Batch 100 / 500 : Loss = 0.29650336503982544
+Batch 200 / 500 : Loss = 0.4650022089481354
+Batch 300 / 500 : Loss = 0.38934817910194397
+Batch 400 / 500 : Loss = 0.40415817499160767
+Train average loss: 0.3968699966967106
+Train time = 17.92359
+Test MAE: 0.3586006798744202
+Test time = 1.24623
+Current best MAE updated: 0.3586006798744202
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 23
+Batch 0 / 500 : Loss = 0.2531454861164093
+Batch 100 / 500 : Loss = 0.43589797616004944
+Batch 200 / 500 : Loss = 0.4545871615409851
+Batch 300 / 500 : Loss = 0.4203190803527832
+Batch 400 / 500 : Loss = 0.2977007329463959
+Train average loss: 0.37932776811718943
+Train time = 17.90991
+Test MAE: 0.35127132511138914
+Test time = 1.24759
+Current best MAE updated: 0.35127132511138914
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 24
+Batch 0 / 500 : Loss = 0.32532015442848206
+Batch 100 / 500 : Loss = 0.3447677493095398
+Batch 200 / 500 : Loss = 0.3244648575782776
+Batch 300 / 500 : Loss = 0.3386515974998474
+Batch 400 / 500 : Loss = 0.46511131525039673
+Train average loss: 0.361655207246542
+Train time = 17.90995
+Test MAE: 0.354431423664093
+Test time = 1.24821
+--------------------------------------
+Epoch 25
+Batch 0 / 500 : Loss = 0.3731257915496826
+Batch 100 / 500 : Loss = 0.42103639245033264
+Batch 200 / 500 : Loss = 0.27049583196640015
+Batch 300 / 500 : Loss = 0.21843215823173523
+Batch 400 / 500 : Loss = 0.4930313527584076
+Train average loss: 0.3456367191076279
+Train time = 17.92483
+Test MAE: 0.3807455835342407
+Test time = 1.24641
+--------------------------------------
+Epoch 26
+Batch 0 / 500 : Loss = 0.3385489881038666
+Batch 100 / 500 : Loss = 0.2547054588794708
+Batch 200 / 500 : Loss = 0.5857290625572205
+Batch 300 / 500 : Loss = 0.28198763728141785
+Batch 400 / 500 : Loss = 0.3342862129211426
+Train average loss: 0.3331765078306198
+Train time = 17.91946
+Test MAE: 0.33884443521499635
+Test time = 1.24951
+Current best MAE updated: 0.33884443521499635
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 27
+Batch 0 / 500 : Loss = 0.2855566740036011
+Batch 100 / 500 : Loss = 0.4129914343357086
+Batch 200 / 500 : Loss = 0.3587537109851837
+Batch 300 / 500 : Loss = 0.3423653841018677
+Batch 400 / 500 : Loss = 0.34737521409988403
+Train average loss: 0.31987553840875627
+Train time = 17.90554
+Test MAE: 0.296301265001297
+Test time = 1.24710
+Current best MAE updated: 0.296301265001297
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 28
+Batch 0 / 500 : Loss = 0.31335699558258057
+Batch 100 / 500 : Loss = 0.1967918574810028
+Batch 200 / 500 : Loss = 0.34814053773880005
+Batch 300 / 500 : Loss = 0.3274148106575012
+Batch 400 / 500 : Loss = 0.32184499502182007
+Train average loss: 0.30515363737940787
+Train time = 17.94883
+Test MAE: 0.29826169872283936
+Test time = 1.25009
+--------------------------------------
+Epoch 29
+Batch 0 / 500 : Loss = 0.2511137127876282
+Batch 100 / 500 : Loss = 0.19127556681632996
+Batch 200 / 500 : Loss = 0.20234394073486328
+Batch 300 / 500 : Loss = 0.27877458930015564
+Batch 400 / 500 : Loss = 0.2721506655216217
+Train average loss: 0.2964426201283932
+Train time = 17.93303
+Test MAE: 0.33749632692337034
+Test time = 1.24874
+--------------------------------------
+Epoch 30
+Batch 0 / 500 : Loss = 0.23931598663330078
+Batch 100 / 500 : Loss = 0.2543413043022156
+Batch 200 / 500 : Loss = 0.36028149724006653
+Batch 300 / 500 : Loss = 0.22972162067890167
+Batch 400 / 500 : Loss = 0.20178934931755066
+Train average loss: 0.28583858740329743
+Train time = 17.94876
+Test MAE: 0.34860451984405516
+Test time = 1.24890
+--------------------------------------
+Epoch 31
+Batch 0 / 500 : Loss = 0.5348706841468811
+Batch 100 / 500 : Loss = 0.15798300504684448
+Batch 200 / 500 : Loss = 0.19865071773529053
+Batch 300 / 500 : Loss = 0.1958472728729248
+Batch 400 / 500 : Loss = 0.24797241389751434
+Train average loss: 0.27601085117459295
+Train time = 17.93388
+Test MAE: 0.25471471548080443
+Test time = 1.25066
+Current best MAE updated: 0.25471471548080443
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+Epoch 32
+Batch 0 / 500 : Loss = 0.3243164122104645
+Batch 100 / 500 : Loss = 0.34587937593460083
+Batch 200 / 500 : Loss = 0.16501572728157043
+Batch 300 / 500 : Loss = 0.37111765146255493
+Batch 400 / 500 : Loss = 0.24643902480602264
+Train average loss: 0.2662696884125471
+Train time = 17.99005
+Test MAE: 0.25382996940612795
+Test time = 1.25751
+Current best MAE updated: 0.25382996940612795
+Save the best model to ./train_mgvae_zinc//train_mgvae_zinc.dataset.ZINC_12k.learning_target.logp.num_epoch.512.batch_size.20.learning_rate.0.01.seed.123456789.n_clusters.2.n_levels.2.n_layers.4.hidden_dim.128.z_dim.128.l1_loss.model
+--------------------------------------
+
