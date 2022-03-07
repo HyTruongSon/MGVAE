@@ -1,0 +1,35 @@
+# List of select functional group SMARTS strings, taken from https://www.daylight.com/dayhtml_tutorials/languages/smarts/smarts_examples.html.
+# Generic Carbonyl
+[CX3]=[OX1] 
+# Amide
+[CX3H1](=O)[#6]
+# Carboxylic Acid
+[CX3](=O)[OX2H1,O-]
+# Ester / Anhydride
+[#6][CX3](=O)[OX2H0][#6]
+# Ketone
+[#6][CX3](=O)[#6]
+# Ether
+[OD2]([#6])[#6]
+# Amine
+[NX3;H2,H1;!$(NC=O)]
+# Amide
+[NX3][CX3](=[OX1])[#6]
+# Peptide bond
+[NX3,NX4+][CX4H]([*])[CX3](=[OX1])[O,N]
+# Nitrile
+[NX1]#[CX2]
+# Hydroxyl
+[OX2H]
+# Carbonyl with S instead of O
+[#6X3](=[SX1])([!N])[!N]
+# C=NH
+[CX3]=[NH]
+# Thiol
+[#16X2H]
+# Sulfide
+[SD2]([#6])[#6]
+# Sulfinate
+[$([#16X3](=[OX1])[OX2H0]),$([#16X3+]([OX1-])[OX2H0])]
+# Sulfone
+[$([#16X4](=[OX1])=[OX1]),$([#16X4+2]([OX1-])[OX1-])]

@@ -14,6 +14,8 @@ Truong Son Hy and Risi Kondor
 Recommend using Conda environment for easy installation.
 
 ## Experiments
-* ```citation_link_prediction```: Link prediction on citation graphs by MGVAE.
 * ```supervised_learning_molecules```: Supervised learning of Multiresolution Graph Networks (MGN) for molecular properties prediction.
-* More experiments will be added once we clean our codes.
+* ```citation_link_prediction```: Link prediction on citation graphs by MGVAE.
+* ```general_graph_generation```: General graph generation by MGVAE.
+* ```image_generation```: Graph-based image generation by MGVAE.
+* ```unsupervised_molecules```: Unsupervised molecular representation learning by MGVAE.
