@@ -13,8 +13,6 @@ from preprocessing import *
 
 import argparse
 
-from snnnet.second_order_models import SnEncoder, SnDecoder, SnVAE, SnNodeChannels
-
 # KMeans Partition Tree
 from tree import KMeans_Partitions_Tree, Spectral_Partitions_Tree, Multiresolution_Graph_Targets
 
