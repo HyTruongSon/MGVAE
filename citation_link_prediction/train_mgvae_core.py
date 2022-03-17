@@ -13,8 +13,6 @@ from preprocessing import *
 
 import argparse
 
-from snnnet.second_order_models import SnEncoder, SnDecoder, SnVAE, SnNodeChannels
-
 def _parse_args():
     parser = argparse.ArgumentParser(description = 'Citation Graphs')
     parser.add_argument('--dir', '-dir', type = str, default = '.', help = 'Directory')
