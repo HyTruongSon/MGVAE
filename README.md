@@ -19,3 +19,6 @@ Recommend using Conda environment for easy installation.
 * ```general_graph_generation```: General graph generation by MGVAE.
 * ```image_generation```: Graph-based image generation by MGVAE.
 * ```unsupervised_molecules```: Unsupervised molecular representation learning by MGVAE.
+
+For experiments on molecule generation, please visit our another repository: 
+https://github.com/HySonLab/MGVAE
