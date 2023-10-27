@@ -1,5 +1,6 @@
-## Project
-Multiresolution Equivariant Graph Variational Autoencoder (MGVAE)
+# Multiresolution Equivariant Graph Variational Autoencoder (MGVAE)
+
+![MGVAE](MGVAE.jpg)
 
 ## Paper
 https://arxiv.org/pdf/2106.00967.pdf
