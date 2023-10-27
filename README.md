@@ -3,6 +3,11 @@
 ![MGVAE](MGVAE.jpg)
 
 ## Paper
+
+Published at **Machine Learning: Science and Technology** journal:
+https://iopscience.iop.org/article/10.1088/2632-2153/acc0d8
+
+Presented at **ICML 2022** (AI for Science workshop):
 https://arxiv.org/pdf/2106.00967.pdf
 
 ## Authors
